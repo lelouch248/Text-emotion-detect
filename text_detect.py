@@ -1,6 +1,6 @@
 import streamlit as st 
 import joblib
-model = joblib.load('model')
+model = joblib.load('model (1)')
 st.title('User emotion detection application backend [ working implementation]')
 ip = st.text_input("Users message")
 op = model.predict([ip])
